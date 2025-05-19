@@ -26,11 +26,11 @@ public class Enemy {
         return y + 64 < playerY;
     }
 
-    public boolean collidesWithplayer(float px, float py) {
+    public boolean collWithplayer(float px, float py) {
         return px < x + 64 && px + 64 > x && py < y + 64 && py + 100 > y;
     }
 
-    public boolean collidesWithbullet(float bx, float by) {
+    public boolean collWithbullet(float bx, float by) {
         return bx < x + 64 && bx + 8 > x && by < y + 64 && by + 30 > y;
     }
 
