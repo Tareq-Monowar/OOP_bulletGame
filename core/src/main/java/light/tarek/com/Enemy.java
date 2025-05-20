@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class Enemy {
     float x, y;
     Texture texture;
-    float speed = 50;
+    float speed = 80;
 
     public Enemy(float x, float y) {
         texture = new Texture("enemy.png");
